@@ -2,5 +2,16 @@
     <string name="app_name">QuiniMania</string>
 
     <string name="hello_world">Hello world!</string>
-    <string name="action_settings">Settings</string>
+
+    <string name="opcion_jugar">Jugar</string>
+
+    <string name="action_settings">nada</string>
+
+    <string name="opcion_salidores">Los Salidores</string>
+
+    <string name="opcion_mis_jugadas">Mis Jugadas</string>
+
+    <string name="opcion_ultimo_sorteo">Ultimo Sorteo</string>
+    <string name="title_activity_ultimo_sorteo">UltimoSorteoActivity</string>
+    <string name="title_activity_los_salidores">LosSalidoresActivity</string>
 </resources>
