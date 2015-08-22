@@ -36,27 +36,28 @@ public class MainActivity extends Activity {
 
 
         //animacion logo:
-        Animation animacion = AnimationUtils.loadAnimation(this, R.anim.animacion);
+        //Animation animacion = AnimationUtils.loadAnimation(this, R.anim.animacion);
 
-        ImageView bordeSuperior = (ImageView) findViewById(R.id.bordeSuperiorLogo);
-        bordeSuperior.startAnimation(animacion);
+        //ImageView bordeSuperior = (ImageView) findViewById(R.id.bordeSuperiorLogo);
+        //bordeSuperior.startAnimation(animacion);
 
-        ImageView bordeInferior = (ImageView) findViewById(R.id.bordeInferiorLogo);
-        bordeInferior.startAnimation(animacion);
+        //ImageView bordeInferior = (ImageView) findViewById(R.id.bordeInferiorLogo);
+        //bordeInferior.startAnimation(animacion);
 
         //animar bolas
         Animation animacion2 = AnimationUtils.loadAnimation(this, R.anim.animacion2);
 
-        ImageView bola_fuccia = (ImageView) findViewById(R.id.bola_fuccia);
-        bola_fuccia.startAnimation(animacion2);
+        ImageView bola32 = (ImageView) findViewById(R.id.bola32);
+        bola32.startAnimation(animacion2);
 
         Animation animacion3 = AnimationUtils.loadAnimation(this, R.anim.animacion3);
-        ImageView bola_amarilla = (ImageView) findViewById(R.id.bola_amarilla);
-        bola_amarilla.startAnimation(animacion3);
+
+        ImageView bola3 = (ImageView) findViewById(R.id.bola3);
+        bola3.startAnimation(animacion3);
 
         //pasar a JugarActivity
 
-        ImageButton botonJugar = (ImageButton) findViewById(R.id.imageButton);
+        ImageButton botonJugar = (ImageButton) findViewById(R.id.imageButtonJugar);
 
         botonJugar.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -68,7 +69,7 @@ public class MainActivity extends Activity {
 
         //pasar a MisJugadasActivity
 
-        ImageButton botonMisJugadas = (ImageButton) findViewById(R.id.imageButton3);
+        ImageButton botonMisJugadas = (ImageButton) findViewById(R.id.imageButtonMisJugadas);
 
         botonMisJugadas.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -80,7 +81,7 @@ public class MainActivity extends Activity {
 
         //pasar a UltimoSorteoActivity
 
-        ImageButton botonUltimoSorteo = (ImageButton) findViewById(R.id.imageButton4);
+        ImageButton botonUltimoSorteo = (ImageButton) findViewById(R.id.imageButtonUltimoSorteo);
 
         botonUltimoSorteo.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -92,7 +93,7 @@ public class MainActivity extends Activity {
 
         //pasar a LosSalidoresActivity
 
-        ImageButton botonLosSalidores = (ImageButton) findViewById(R.id.imageButton2);
+        ImageButton botonLosSalidores = (ImageButton) findViewById(R.id.imageButtonSalidores);
 
         botonLosSalidores.setOnClickListener(new View.OnClickListener() {
             @Override

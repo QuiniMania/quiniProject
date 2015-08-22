@@ -47,21 +47,21 @@
         android:layout_alignParentStart="true" />
 
     <ImageButton
+        android:id="@+id/imageButtonJugar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/imageButton"
         android:src="@drawable/icono_jugar2"
-        android:layout_above="@+id/imageButton3"
+        android:layout_above="@+id/imageButtonMisJugadas"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        android:layout_alignRight="@+id/imageButton3"
-        android:layout_alignEnd="@+id/imageButton3"
+        android:layout_alignRight="@+id/imageButtonMisJugadas"
+        android:layout_alignEnd="@+id/imageButtonMisJugadas"
         android:clickable="true" />
 
     <ImageButton
+        android:id="@+id/imageButtonSalidores"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/imageButton2"
         android:src="@drawable/icono_salidores"
         android:layout_alignParentBottom="true"
         android:layout_alignRight="@+id/bordeInferiorLogo"
@@ -69,43 +69,86 @@
         android:clickable="true"/>
 
     <ImageButton
+        android:id="@+id/imageButtonMisJugadas"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/imageButton3"
         android:src="@drawable/icono_mis_jugadas"
-        android:layout_below="@+id/imageButton4"
+        android:layout_below="@+id/imageButtonUltimoSorteo"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
         android:clickable="true"/>
 
     <ImageButton
+        android:id="@+id/imageButtonUltimoSorteo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/imageButton4"
         android:src="@drawable/icono_ultimo_sorteo"
-        android:layout_above="@+id/imageButton2"
-        android:layout_alignLeft="@+id/imageButton2"
-        android:layout_alignStart="@+id/imageButton2"
+        android:layout_above="@+id/imageButtonSalidores"
+        android:layout_alignLeft="@+id/imageButtonSalidores"
+        android:layout_alignStart="@+id/imageButtonSalidores"
         android:clickable="true" />
 
     <ImageView
+        android:id="@+id/bola10"
         android:layout_width="50dp"
         android:layout_height="50dp"
-        android:id="@+id/bola_fuccia"
-        android:src="@drawable/imagen1_app"
+        android:src="@drawable/bola10"
         android:layout_below="@+id/textViewFechaHoy"
-        android:layout_alignLeft="@+id/imageButton4"
-        android:layout_alignStart="@+id/imageButton4"
+        android:layout_alignLeft="@+id/imageButtonUltimoSorteo"
+        android:layout_alignStart="@+id/imageButtonUltimoSorteo"
         android:layout_marginTop="39dp" />
 
     <ImageView
+        android:id="@+id/bola37"
         android:layout_width="35dp"
         android:layout_height="35dp"
-        android:id="@+id/bola_amarilla"
-        android:src="@drawable/imagen2_app"
-        android:layout_below="@+id/bola_fuccia"
-        android:layout_alignRight="@+id/imageButton"
-        android:layout_alignEnd="@+id/imageButton" />
+        android:src="@drawable/bola37"
+        android:layout_alignTop="@+id/bola10"
+        android:layout_toLeftOf="@+id/imagenLogo"
+        android:layout_toStartOf="@+id/imagenLogo" />
+
+    <ImageView
+        android:id="@+id/bola40"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/bola40"
+        android:layout_below="@+id/bola32"
+        android:layout_toRightOf="@+id/textViewFechaHoy"
+        android:layout_toEndOf="@+id/textViewFechaHoy" />
+
+    <ImageView
+        android:id="@+id/bola32"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textViewFechaHoy"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/bola32" />
+
+    <ImageView
+        android:id="@+id/bola23"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/bola23"
+        android:layout_above="@+id/imageButtonUltimoSorteo"
+        android:layout_toRightOf="@+id/bola10" />
+
+    <ImageView
+        android:id="@+id/bola7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/bola32"
+        android:layout_toRightOf="@+id/bola10"
+        android:layout_toEndOf="@+id/bola10"
+        android:src="@drawable/bola7" />
+
+    <ImageView
+        android:id="@+id/bola3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/bola3"
+        android:layout_alignTop="@+id/bola23"
+        android:layout_alignRight="@+id/textViewFechaHoy"
+        android:layout_alignEnd="@+id/textViewFechaHoy" />
 
 
 </RelativeLayout>
